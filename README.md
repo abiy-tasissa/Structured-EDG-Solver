@@ -14,7 +14,7 @@ The selection of the number of anchors and which points are designated as anchor
 
 `AB_completion.m`: This is the main algorithm for the structured Euclidean Distance Geometry Problem for the case of exact partial information. 
 
-'pdb2mat.m': This reads .pdb files and converts it to MATLAB files. This script is obtained from the following [link](https://www.mathworks.com/matlabcentral/fileexchange/42957-read-and-write-pdb-files-using-matlab?s_tid=FX_rc2_behav) 
+`pdb2mat.m`: This reads .pdb files and converts it to MATLAB files. This script is obtained from the following [link](https://www.mathworks.com/matlabcentral/fileexchange/42957-read-and-write-pdb-files-using-matlab?s_tid=FX_rc2_behav) 
 
 ## List of protein data
 * `1ptq`
