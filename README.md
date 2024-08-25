@@ -23,7 +23,7 @@ The selection of the number of anchors and which points are designated as anchor
 * `5wov`
 * `2lum`
 
-All the protein data are downloaded from the Protein Data Bank [here](https://www.rcsb.org/). The user can download 
+All the protein data are downloaded from the Protein Data Bank [here](https://www.rcsb.org/).
 
 ## Dependencies
 
