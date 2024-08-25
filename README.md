@@ -33,7 +33,7 @@ All the protein data are downloaded from the Protein Data Bank [here](https://ww
 
 ## Instructions
 
-To test the algorithm, you can start with either of the scripts `demo_structured_edg_synthetic` or `demo_structured_edg_protein`. You can select a protein from the available list in the dataset or use a protein of your choice. Be sure to set the parameters \(\alpha\), \(\gamma\), \(m\), and the selection of anchors accordingly. 
+To test the algorithm, you can start with either of the scripts `demo_structured_edg_synthetic` or `demo_structured_edg_protein`. You can select a protein from the available list in the dataset or use a protein of your choice. Be sure to set the parameters $\alpha$, $\gamma$, $m$, and the selection of anchors accordingly. 
 
 ## Citation
 
