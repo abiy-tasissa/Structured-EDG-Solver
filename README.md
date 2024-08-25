@@ -8,9 +8,9 @@ We sample the pairwise distance matrix of the anchors using the Bernoulli model,
 The selection of the number of anchors and which points are designated as anchors is crucial, as a "poor" choice can result in sub-optimal performance of the algorithm. Ideally, this decision should be guided by domain knowledge. In the absence of such knowledge, a simple approach is to randomly select a subset of the points as anchors.
 
 ## MATLAB files description
-`demo_structured_edg_protein.m`: This is the main script that loads various proteins from the data folder and extracts their $(x,y,z)$ coordinates. Using these coordinates, it constructs the complete distance matrix for the considered protein. Following this, the script selects specific entries from the distance matrix based on the sampling scheme discussed above. Finally, it calls the main algorithm, 'AB_completion.m,' to estimate the configuration of the points and calculate the error. 
+`demo_structured_edg_protein.m`: This is the main script that loads various proteins from the data folder and extracts their $(x,y,z)$ coordinates. Using these coordinates, it constructs the complete distance matrix for the considered protein. Following this, the script selects specific entries from the distance matrix based on the sampling scheme discussed above. Finally, it calls the main algorithm, `AB_completion.m` to estimate the configuration of the points and calculate the error. 
 
-`demo_structured_edg_synthetic.m`: This file is similar to 'demo_structured_edg_protein.m,' but it operates on synthetic data instead.
+`demo_structured_edg_synthetic.m`: This file is similar to `demo_structured_edg_protein.m` but it operates on synthetic data instead.
 
 `AB_completion.m`: This is the main algorithm for the structured Euclidean Distance Geometry Problem for the case of exact partial information. 
 
