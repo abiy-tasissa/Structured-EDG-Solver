@@ -1,10 +1,10 @@
 # Structured-EDG-Solver
 This is a convex algorithm designed for the structured Euclidean Distance Geometry Problem. In this problem, we are given a set of $m$ anchor nodes and $n$ mobile nodes, along with partial distance data between the anchor nodes and between the anchor and mobile nodes. There is no distance information available between the mobile nodes themselves. The objective is to estimate the positions of both the mobile and anchor nodes based on the available partial distance information. These codes were developed as part of a research project on the structured Euclidean Distance Geometry problem by Samuel Lichtenberg and Abiy Tasissa.
 
-# Sampling scheme
+## Sampling scheme
 We sample the pairwise distance matrix of the anchors using the Bernoulli model, where $\gamma$ represents the probability that any given entry is selected. By design, the diagonal entries of this matrix are zero and are considered known. Additionally, there is a central anchor node from which distances to all other anchors and mobile nodes are known. In addition, for each mobile node, aside from the central node, distance information is available from $\alpha-1$ anchors, chosen uniformly at random.
 
-# Choice of anchors
+## Choice of anchors
 The selection of the number of anchors and which points are designated as anchors is crucial, as a "poor" choice can result in sub-optimal performance of the algorithm. Ideally, this decision should be guided by domain knowledge. In the absence of such knowledge, a simple approach is to randomly select a subset of the points as anchors.
 
 ## MATLAB files description
